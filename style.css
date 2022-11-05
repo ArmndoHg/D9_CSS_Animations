@@ -1,61 +1,44 @@
 body {
-  background-color: rgb(66, 68, 68);
+  background-color: #272727;
+  color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2 {
-  color: black;
+.navbar {
+  background-color: #2e151b;
+}
+.jumbocon {
+  max-width: 100%;
+  max-height: 100em;
 }
 
-h5 {
-  font-size: 3em;
+.jumbotron {
+  background-image: url(https://kaikucaffelatte.com/blog/wp-content/uploads/2018/09/kaiku-caffe-latte-buena-musica-2018.jpg);
+  background-size: cover;
+  background-position-y: -370px;
 }
 
-p {
-  font-size: 2em;
+.first-card {
+  background-image: url(https://i.discogs.com/Qxf5muXJ-tiNOfFkhSxFKOkVGLTTK9bqbTJu4svH2vQ/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NzU0/ODg5LTE2MDk2Mjc2/NTgtMjcyNy5qcGVn.jpeg);
+  background-size: cover;
 }
 
-.p {
-  align-items: flex-end;
+.second-card {
+  background-image: url(https://i.discogs.com/Qxf5muXJ-tiNOfFkhSxFKOkVGLTTK9bqbTJu4svH2vQ/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NzU0/ODg5LTE2MDk2Mjc2/NTgtMjcyNy5qcGVn.jpeg);
+  background-size: cover;
 }
 
-.fadding {
-  animation: fade 2s;
+.third-card {
+  background-image: url(https://i.discogs.com/Qxf5muXJ-tiNOfFkhSxFKOkVGLTTK9bqbTJu4svH2vQ/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NzU0/ODg5LTE2MDk2Mjc2/NTgtMjcyNy5qcGVn.jpeg);
+  background-size: cover;
 }
 
-@keyframes fade {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+.fourth-card {
+  background-image: url(https://i.discogs.com/Qxf5muXJ-tiNOfFkhSxFKOkVGLTTK9bqbTJu4svH2vQ/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NzU0/ODg5LTE2MDk2Mjc2/NTgtMjcyNy5qcGVn.jpeg);
+  background-size: cover;
 }
 
-.card-hover {
-  visibility: hidden;
-  opacity: 0;
-}
-
-.card-bbody:hover {
-  cursor: pointer;
-}
-
-.displaying {
-  box-sizing: border-box;
-  position: absolute;
-}
-
-.card:hover .card-hover {
-  opacity: 1;
-  visibility: visible;
-}
-
-.card-img-top {
-  height: 350px;
-  object-fit: cover;
-}
-
-.card-bbody {
-  position: relative;
+.back-fade {
+  padding: 2em;
+  background-color: rgb(27, 27, 27, 0.6);
 }
