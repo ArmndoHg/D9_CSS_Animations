@@ -4,8 +4,12 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 .navbar {
-  background-color: #2e151b;
+  background-color: #000000;
 }
 .jumbocon {
   max-width: 100%;
@@ -15,30 +19,73 @@ body {
 .jumbotron {
   background-image: url(https://kaikucaffelatte.com/blog/wp-content/uploads/2018/09/kaiku-caffe-latte-buena-musica-2018.jpg);
   background-size: cover;
-  background-position-y: -370px;
+  background-position-y: -460px;
 }
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .first-card {
   background-image: url(https://i.discogs.com/Qxf5muXJ-tiNOfFkhSxFKOkVGLTTK9bqbTJu4svH2vQ/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NzU0/ODg5LTE2MDk2Mjc2/NTgtMjcyNy5qcGVn.jpeg);
   background-size: cover;
 }
 
 .second-card {
-  background-image: url(https://i.discogs.com/Qxf5muXJ-tiNOfFkhSxFKOkVGLTTK9bqbTJu4svH2vQ/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NzU0/ODg5LTE2MDk2Mjc2/NTgtMjcyNy5qcGVn.jpeg);
+  background-image: url(https://ae01.alicdn.com/kf/Ub60e190a176e4bcfaf82ccadc7b9f356w/Rammstein-Mutter-ru-CD.jpg);
   background-size: cover;
 }
 
 .third-card {
-  background-image: url(https://i.discogs.com/Qxf5muXJ-tiNOfFkhSxFKOkVGLTTK9bqbTJu4svH2vQ/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NzU0/ODg5LTE2MDk2Mjc2/NTgtMjcyNy5qcGVn.jpeg);
+  background-image: url(https://metalstorm.net/images/albums/1/1118.jpg);
   background-size: cover;
 }
 
 .fourth-card {
-  background-image: url(https://i.discogs.com/Qxf5muXJ-tiNOfFkhSxFKOkVGLTTK9bqbTJu4svH2vQ/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NzU0/ODg5LTE2MDk2Mjc2/NTgtMjcyNy5qcGVn.jpeg);
+  background-image: url(https://http2.mlstatic.com/D_NQ_NP_333121-MLA20713744871_052016-O.jpg);
   background-size: cover;
 }
 
 .back-fade {
   padding: 2em;
   background-color: rgb(27, 27, 27, 0.6);
+}
+
+.img-fluid {
+  max-width: 95%;
+}
+
+.card-body p {
+  font-size: 1rem;
+}
+
+.shame-card {
+  background-image: url(https://a.allegroimg.com/original/115bab/0d7efea443daa0bd69df3c935989/MARILYN-MANSON-WE-ARE-CHAOS-CD);
+  background-size: cover;
+}
+
+.shame2-card {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/4/45/StealThisAlbum.png);
+  background-size: cover;
+}
+
+.shame3-card {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/2/2f/Medicine_at_Midnight.jpeg);
+  background-size: cover;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+svg:hover {
+  color: #2e151b;
+  transform: scale(1.5);
 }
