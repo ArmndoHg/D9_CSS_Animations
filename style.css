@@ -113,3 +113,11 @@ svg:hover {
   top: 0;
   border-radius: 5px;
 }
+
+.btn-add {
+  transition: box-shadow 1s ease-in-out 0s;
+}
+
+.btn-add:hover {
+  box-shadow: black 5px 5px 20px;
+}
